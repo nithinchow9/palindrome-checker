@@ -1,0 +1,78 @@
+/* body {
+  background-color: black;
+} */
+
+:root {
+  --main-bg-color: #000000;
+}
+body {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-family: monospace;
+  font-size: xx-large;
+}
+h1 {
+  color: white;
+  font-family: monospace;
+  font-size: 35px;
+  margin-top: 0px;
+  padding-top: 1px;
+}
+.palin-container {
+  background-color: white;
+  width: 400px;
+  height: 25vh;
+  border-radius: 20px;
+}
+p {
+  font-family: monospace;
+  font-size: larger;
+}
+.input-container {
+  margin-top: 30px;
+}
+.input-line {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  width: 200px;
+}
+#check-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: black;
+}
+#result {
+  font-size: 18px;
+  color: purple;
+  margin-top: 20px;
+  font-family: monospace;
+}
+.info {
+  width: 400px;
+  height: 145px;
+  background-color: cyan;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.info p {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
